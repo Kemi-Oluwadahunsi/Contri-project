@@ -27,7 +27,7 @@ const Navbar = () => {
 
   return (
     <header className="navbar-section">
-      <h6 className='logo'>Countria</h6>
+      <h6 className='logo'>Countri</h6>
       
      
       <div>

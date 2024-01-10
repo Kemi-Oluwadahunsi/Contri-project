@@ -40,7 +40,6 @@ const Content = () => {
   useEffect(() => {
     console.log('effect run, country is now', country);
 
-    // skip if country is not defined
     if (country) {
       console.log('fetching country info...');
       

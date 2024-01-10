@@ -52,7 +52,7 @@ body {
   }
 
   
-
+  /* logo styles */
   .logo{
     color: #4d041c;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -86,8 +86,6 @@ body {
   justify-content: space-around;
   width: 36em;
 }
-
-
 
   .nav-li a, .nav-li li{
     color: #eceaeb;
@@ -137,7 +135,6 @@ body {
   
     to {
       margin-left: 0%;
-     
     }
   
   }
@@ -160,8 +157,7 @@ body {
   .carousel{
     background-color: #f73c65;
     height: 22rem;
-    padding: 2em;
-    
+    padding: 2em;  
   }
 
   .display-content  .capital{
@@ -170,7 +166,6 @@ body {
 
   .display-content ul {
     margin:  0.7em 0 0 1em;
-    
   }
   
 
@@ -189,8 +184,6 @@ body {
   .carousel .image img{
       width: 100%;
       aspect-ratio: 2/1;
-   
-    
   }
 
   .search-section {
@@ -212,8 +205,6 @@ body {
     border-bottom-left-radius:4px ;
     outline: none;
     border: none;
-
-    
   }
 
   .search-section button{
@@ -232,8 +223,7 @@ body {
   .display-content{
     display: flex;
     column-gap: 12rem;
-    padding: 1em 3em;
-    
+    padding: 1em 3em; 
   }
 
   .timezone h6{
@@ -247,8 +237,6 @@ body {
   .languages li{
     list-style-type: none;
     text-decoration: none;
-    
-   
   }
 
   .capital span , .time h6{
@@ -277,8 +265,7 @@ body {
     background-color:#4d041c;
     position: absolute;
     bottom: 0;
-    width: 100%;
-     
+    width: 100%;    
   }
 
   .footer-info{
@@ -335,8 +322,7 @@ body {
 
    .footer .footer-ul-header{
     color: #ec1656;
-    font-weight: bolder;   
-   
+    font-weight: bolder;      
   }
 
   .btn-scrollTop{
@@ -384,16 +370,14 @@ body {
   }
 
   .nav-li span {
-    display: block; 
-   
+    display: block;   
   }
 
   .display-content{
     display: flex;
     gap:1rem;
     padding: 1em 2em;
-    font-size: 90%;
-    
+    font-size: 90%;   
   }  
   .carousel {
     height: 90%;
@@ -409,20 +393,16 @@ body {
 
   .coatOfArms{
     width: 90%;
-    height: 95%;
-    
+    height: 95%;   
   }
 
 
   .nav-li{
-    display: none;
-    
-     
+    display: none; 
   } 
 
 
   .nav-li ul{
-
     flex-direction: column;
     position: fixed;
     background-color:#030313;
@@ -445,28 +425,24 @@ body {
     right: 2.2em; 
     color: #cf4465;
     position: fixed;
-
-
   }
   
   .nav-li a, .nav-li li{
     color: #cf4465;
-      }
+    }
 
     .nav-li li {
       background-color:#16165a;
       border-radius: 20px;
       width: 32%;
       padding: 0.4em 0;
-      margin: 0 auto;
-     
+      margin: 0 auto;   
     }
 
 
   .hamburger {
     display: block;
-    font-size: 24px;
-    
+    font-size: 24px;    
   }
 
   
@@ -498,15 +474,13 @@ body {
 
   .footer-info{
     align-items: flex-start;  
-    padding-left: 2em;  
-    
+    padding-left: 2em;     
   }
  }
 
  @media screen and (max-width: 490px) {
  .countria-section p {
-  width: 90%;
-  
+  width: 90%; 
  }
 }
  
@@ -521,8 +495,7 @@ body {
     flex-direction: column;
     text-align: center;
     align-items: center;
-   padding-left: -16em;
-    
+   padding-left: -16em;    
   }
 
   .info{
@@ -540,11 +513,8 @@ body {
     text-align: center; 
     align-items: center;
     margin: 0 10em;   
-    
   }
 
-
-  
 
   .flag-section{
     text-align: center;
@@ -556,8 +526,7 @@ body {
 
   .coatOfArms{
     width: 100%;
-    height: 95%;
-   
+    height: 95%;   
   }  
 
  }
@@ -574,12 +543,7 @@ body {
    }
 
    .search-section input[type=text]{
-    width: 56%;
-    
+    width: 56%;   
   }
 
  }
-
-
-
-

@@ -5,7 +5,7 @@ export default function Footer()  {
         <div className="footer-info">
           <ul> 
             <li className="footer-ul-header">About Us</li>
-            <li className="logo-footer">Countria</li>           
+            <li className="logo-footer">Countri</li>           
             <li><a href="https://blog.weather.us/" target="_blank" rel="noopener noreferrer">Blog</a></li>
             <li><a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Ask a question</a></li>
             <li><a href="https://praedictix.com/meteorologists/" target="_blank" rel="noopener noreferrer">Meet experts</a></li>
